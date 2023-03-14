@@ -18,6 +18,25 @@
         width: 60%;
         text-align: center;
     }
+    .menu-lateral{
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .menu-lateral ul{
+        flex-direction: row;
+    }
+
+    .conteudo{
+        min-height: 70vh;
+        gap: 50px;
+    }
+
+    body{
+        padding: 40px;
+    }
 }
 
 @media (max-width: 425px){
